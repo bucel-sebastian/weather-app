@@ -1,7 +1,19 @@
 import React from "react";
 
 function DashboardSec() {
-    return (<></>);
+    return (<>
+        <div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </>);
 }
 
 export default DashboardSec;

@@ -2,19 +2,19 @@ import React from "react";
 import DashboardMain from "./DashboardMain";
 import DashboardSec from "./DashboardSec";
 
-function WeatherDashboad() {
+function WeatherDashboard(currentLocationData, currentLocationWeatherData) {
     return (
     
             <div className="w-full h-full background-bgPrimary">
                 <div>
-                    <DashboardMain />
+                    <DashboardMain currentLocationData={currentLocationData} currentLocationWeatherData={currentLocationWeatherData} />
                 </div>
                 <div>
-                    <DashboardSec />
+                    <DashboardSec currentLocationData={currentLocationData} currentLocationWeatherData={currentLocationWeatherData} />
                 </div>
             </div>
     
     )
 }
 
-export default WeatherDashboad;
+export default WeatherDashboard;

@@ -10,7 +10,8 @@ module.exports = {
         bgSecondary: "var(--background-secondary)",
         fgPrimary: "var(--foreground-primary)",
         fgSecondary: "var(--foreground-secondary)",
-      }
+      },
+      transform: ['responsive', 'hover', 'focus', 'motion-safe', 'motion-reduce'],
     },
   },
   plugins: [],
